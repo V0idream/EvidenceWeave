@@ -1,0 +1,219 @@
+{
+  "synthetic": true,
+  "description": "完全虚构的视频演示样例；人工设计预期关系，不代表真实案件或法律结论。",
+  "target_person": "陈某",
+  "statements": {
+    "c1_presence": {
+      "document": "01_陈某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时左右，我没有进入锦庭酒店。",
+      "source_person": "陈某"
+    },
+    "c1_cash": {
+      "document": "01_陈某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我没有在锦庭酒店收取赵某支付的任何现金。",
+      "source_person": "陈某"
+    },
+    "c1_contact": {
+      "document": "01_陈某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日19时30分，我没有通过聊天软件联系赵某约定见面。",
+      "source_person": "陈某"
+    },
+    "c2_presence": {
+      "document": "02_陈某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时10分左右，我进入了锦庭酒店。",
+      "source_person": "陈某"
+    },
+    "c2_cash": {
+      "document": "02_陈某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我没有在锦庭酒店收取赵某支付的任何现金。",
+      "source_person": "陈某"
+    },
+    "c2_bag": {
+      "document": "02_陈某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我在锦庭酒店从赵某处拿走一个黑色文件袋，里面是合同材料。",
+      "source_person": "陈某"
+    },
+    "c3_presence": {
+      "document": "03_陈某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时05分左右，我进入锦庭酒店808房间。",
+      "source_person": "陈某"
+    },
+    "c3_cash": {
+      "document": "03_陈某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我在锦庭酒店收取赵某交付的八万元现金。",
+      "source_person": "陈某"
+    },
+    "c3_depart": {
+      "document": "03_陈某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时35分左右，我离开锦庭酒店。",
+      "source_person": "陈某"
+    },
+    "z1_presence": {
+      "document": "04_赵某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时10分，我亲眼看见陈某进入锦庭酒店。",
+      "source_person": "赵某"
+    },
+    "z1_cash": {
+      "document": "04_赵某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，陈某在锦庭酒店收取了我支付的十万元现金。",
+      "source_person": "赵某"
+    },
+    "z2_cash": {
+      "document": "05_赵某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，陈某在锦庭酒店收取了我支付的八万元现金，这就是当晚唯一的一笔现金交付。",
+      "source_person": "赵某"
+    },
+    "z2_bag": {
+      "document": "05_赵某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我把装有现金的黑色文件袋交给陈某。",
+      "source_person": "赵某"
+    },
+    "l1_presence": {
+      "document": "06_刘某_证人证言.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时05分左右，我亲眼看见陈某进入锦庭酒店。",
+      "source_person": "刘某"
+    },
+    "l1_cash_unknown": {
+      "document": "06_刘某_证人证言.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我没有看见陈某是否收取现金，不能确认其是否收款。",
+      "source_person": "刘某"
+    },
+    "s1_hearsay": {
+      "document": "07_孙某_证人证言.pdf",
+      "page": 2,
+      "quote": "答：赵某告诉我，2026年8月12日21时20分陈某在锦庭酒店收取了十万元现金。",
+      "source_person": "孙某"
+    },
+    "s1_other": {
+      "document": "07_孙某_证人证言.pdf",
+      "page": 2,
+      "quote": "答：2026年8月12日21时20分，我没有进入锦庭酒店。",
+      "source_person": "孙某"
+    },
+    "camera_in": {
+      "document": "08_锦庭酒店监控摘要.pdf",
+      "page": 2,
+      "quote": "监控画面显示：2026年8月12日21时06分，陈某进入锦庭酒店。",
+      "source_person": null
+    },
+    "camera_out": {
+      "document": "08_锦庭酒店监控摘要.pdf",
+      "page": 2,
+      "quote": "监控画面显示：2026年8月12日21时34分，陈某离开锦庭酒店，右手持有黑色文件袋。",
+      "source_person": null
+    },
+    "chat_contact": {
+      "document": "09_聊天记录摘要.pdf",
+      "page": 2,
+      "quote": "2026年8月12日19时32分，陈某通过聊天软件联系赵某，发送内容为“21点，老地方见，材料带上”。",
+      "source_person": null
+    },
+    "chat_reply": {
+      "document": "09_聊天记录摘要.pdf",
+      "page": 2,
+      "quote": "2026年8月12日19时34分，赵某通过聊天软件联系陈某，回复内容为“好，我准时到”。",
+      "source_person": null
+    },
+    "ride_arrive": {
+      "document": "10_网约车行程摘要.pdf",
+      "page": 2,
+      "quote": "网约车订单显示：2026年8月12日20时58分，陈某到达锦庭酒店东门。",
+      "source_person": null
+    },
+    "ride_leave": {
+      "document": "10_网约车行程摘要.pdf",
+      "page": 2,
+      "quote": "网约车订单显示：2026年8月12日21时40分，陈某从锦庭酒店东门乘车离开。",
+      "source_person": null
+    },
+    "bank_withdraw": {
+      "document": "11_银行交易摘要.pdf",
+      "page": 2,
+      "quote": "银行记录显示：2026年8月12日18时05分，赵某账户取现100000元。",
+      "source_person": null
+    },
+    "bank_nextday": {
+      "document": "11_银行交易摘要.pdf",
+      "page": 2,
+      "quote": "银行记录显示：2026年8月13日10时15分，陈某账户收到赵某账户转入100000元，摘要为咨询费。",
+      "source_person": null
+    }
+  },
+  "labels": [
+    {
+      "a": "c1_presence",
+      "b": "c2_presence",
+      "relation_type": "CONTRADICTS",
+      "reason": "陈某前后供述对是否进入酒店直接冲突"
+    },
+    {
+      "a": "c1_presence",
+      "b": "camera_in",
+      "relation_type": "CONTRADICTS",
+      "reason": "本人否认进入与监控记录冲突"
+    },
+    {
+      "a": "c2_presence",
+      "b": "z1_presence",
+      "relation_type": "SUPPORTS",
+      "reason": "本人供述与赵某目击陈述相互印证"
+    },
+    {
+      "a": "c3_presence",
+      "b": "camera_in",
+      "relation_type": "SUPPORTS",
+      "reason": "进入时间接近且地点一致"
+    },
+    {
+      "a": "c1_cash",
+      "b": "c3_cash",
+      "relation_type": "CONTRADICTS",
+      "reason": "陈某由否认收款变为承认收取八万元"
+    },
+    {
+      "a": "c1_cash",
+      "b": "z1_cash",
+      "relation_type": "CONTRADICTS",
+      "reason": "本人否认与交付方肯定陈述冲突"
+    },
+    {
+      "a": "c3_cash",
+      "b": "z2_cash",
+      "relation_type": "SUPPORTS",
+      "reason": "双方均称八万元现金"
+    },
+    {
+      "a": "z1_cash",
+      "b": "z2_cash",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一唯一现金交付的金额十万元与八万元互斥"
+    },
+    {
+      "a": "l1_cash_unknown",
+      "b": "z1_cash",
+      "relation_type": "INDEPENDENT",
+      "reason": "证人未看到不等于否认发生"
+    },
+    {
+      "a": "c1_contact",
+      "b": "chat_contact",
+      "relation_type": "CONTRADICTS",
+      "reason": "否认联系与聊天记录直接冲突"
+    }
+  ]
+}

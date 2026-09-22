@@ -1,0 +1,336 @@
+{
+  "synthetic": true,
+  "description": "全部虚构，人工设计的固定评价集；不是法律结论。",
+  "persons": {
+    "defendants": [
+      "张某",
+      "李某",
+      "王某",
+      "赵某",
+      "孙某"
+    ],
+    "witnesses": [
+      "周某",
+      "吴某"
+    ],
+    "others": [
+      "钱某"
+    ]
+  },
+  "statements": {
+    "z1_presence": {
+      "document": "01_张某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我没有进入鑫源宾馆。",
+      "source_person": "张某"
+    },
+    "z1_bag": {
+      "document": "01_张某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我没有在鑫源宾馆向李某交付黑色手提袋。",
+      "source_person": "张某"
+    },
+    "z2_presence": {
+      "document": "02_张某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我进入了鑫源宾馆。",
+      "source_person": "张某"
+    },
+    "z2_bag": {
+      "document": "02_张某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我没有在鑫源宾馆向李某交付黑色手提袋。",
+      "source_person": "张某"
+    },
+    "z3_presence": {
+      "document": "03_张某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时30分左右，我进入了鑫源宾馆。",
+      "source_person": "张某"
+    },
+    "z3_bag": {
+      "document": "03_张某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我在鑫源宾馆向李某交付了黑色手提袋。",
+      "source_person": "张某"
+    },
+    "z4_presence": {
+      "document": "04_张某_第四次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时左右，我进入了鑫源宾馆。",
+      "source_person": "张某"
+    },
+    "z4_bag": {
+      "document": "04_张某_第四次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我在鑫源宾馆向李某交付了黑色手提袋。",
+      "source_person": "张某"
+    },
+    "l1_bag": {
+      "document": "05_李某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，张某在鑫源宾馆向李某交付了黑色手提袋。",
+      "source_person": "李某"
+    },
+    "l1_money": {
+      "document": "05_李某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某在鑫源宾馆收取了李某支付的十万元现金。",
+      "source_person": "李某"
+    },
+    "l2_bag": {
+      "document": "06_李某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，张某在鑫源宾馆向李某交付的唯一手提袋是红色的。",
+      "source_person": "李某"
+    },
+    "l2_money": {
+      "document": "06_李某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某在鑫源宾馆收取了李某支付的八万元现金，这就是当晚唯一的一笔现金交付。",
+      "source_person": "李某"
+    },
+    "l3_money": {
+      "document": "07_李某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日晚，张某在鑫源宾馆没有收取李某的任何现金。",
+      "source_person": "李某"
+    },
+    "l3_meeting": {
+      "document": "07_李某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某在鑫源宾馆参与了项目商议。",
+      "source_person": "李某"
+    },
+    "w1_presence": {
+      "document": "08_王某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我亲眼看见张某进入鑫源宾馆。",
+      "source_person": "王某"
+    },
+    "w1_meeting": {
+      "document": "08_王某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某没有在鑫源宾馆参与项目商议。",
+      "source_person": "王某"
+    },
+    "w2_presence": {
+      "document": "09_王某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日20时40分左右，我亲眼看见张某进入鑫源宾馆。",
+      "source_person": "王某"
+    },
+    "w2_meeting": {
+      "document": "09_王某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某在鑫源宾馆参与了项目商议。",
+      "source_person": "王某"
+    },
+    "w3_hearsay": {
+      "document": "10_王某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "李某告诉我，2026年3月17日21时张某在鑫源宾馆向李某交付了黑色手提袋。",
+      "source_person": "王某"
+    },
+    "w3_other": {
+      "document": "10_王某_第三次讯问.pdf",
+      "page": 2,
+      "quote": "2026年4月1日21时，我看见张某进入鑫源宾馆。",
+      "source_person": "王某"
+    },
+    "r1_money": {
+      "document": "11_赵某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某在鑫源宾馆收取了李某支付的100000元现金。",
+      "source_person": "赵某"
+    },
+    "r1_bag": {
+      "document": "11_赵某_第一次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，张某在鑫源宾馆向李某交付了黑色手提袋。",
+      "source_person": "赵某"
+    },
+    "r2_money": {
+      "document": "12_赵某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日22时，张某在鑫源宾馆收取了李某支付的八万元现金，这就是当晚唯一的一笔现金交付。",
+      "source_person": "赵某"
+    },
+    "r2_recipient": {
+      "document": "12_赵某_第二次讯问.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，张某在鑫源宾馆交付的唯一黑色手提袋，其接收人是钱某，不是李某。",
+      "source_person": "赵某"
+    },
+    "p_presence": {
+      "document": "13_周某_证人证言.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我亲眼看见张某进入鑫源宾馆。",
+      "source_person": "周某"
+    },
+    "p_other": {
+      "document": "13_周某_证人证言.pdf",
+      "page": 2,
+      "quote": "2026年4月2日21时，我亲眼看见张某进入鑫源宾馆。",
+      "source_person": "周某"
+    },
+    "u_unknown": {
+      "document": "14_吴某_证人证言.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我没有注意到张某是否进入鑫源宾馆，不能确认其是否进入。",
+      "source_person": "吴某"
+    },
+    "u_bag": {
+      "document": "14_吴某_证人证言.pdf",
+      "page": 2,
+      "quote": "2026年3月17日21时，我亲眼看见张某在鑫源宾馆向李某交付了黑色手提袋。",
+      "source_person": "吴某"
+    },
+    "bank": {
+      "document": "15_银行流水摘要.pdf",
+      "page": 2,
+      "quote": "2026年3月18日10时，张某账户收到李某账户转入的100000元，摘要为货款。",
+      "source_person": null
+    },
+    "camera": {
+      "document": "16_监控摘要.pdf",
+      "page": 2,
+      "quote": "监控画面显示：2026年3月17日21时，张某进入鑫源宾馆。",
+      "source_person": null
+    },
+    "chat": {
+      "document": "17_聊天记录摘要.pdf",
+      "page": 2,
+      "quote": "2026年3月19日10时，张某通过聊天软件联系孙某，商议购买电脑。",
+      "source_person": null
+    },
+    "chat2": {
+      "document": "17_聊天记录摘要.pdf",
+      "page": 2,
+      "quote": "2026年3月19日11时，孙某通过聊天软件联系钱某，商议购买电脑。",
+      "source_person": null
+    }
+  },
+  "labels": [
+    {
+      "a": "z1_presence",
+      "b": "z2_presence",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一时间地点，进入与未进入"
+    },
+    {
+      "a": "z1_presence",
+      "b": "w1_presence",
+      "relation_type": "CONTRADICTS",
+      "reason": "本人否认与目击陈述"
+    },
+    {
+      "a": "z1_presence",
+      "b": "camera",
+      "relation_type": "CONTRADICTS",
+      "reason": "否认进入与监控记录"
+    },
+    {
+      "a": "z1_bag",
+      "b": "z3_bag",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一交付行为的前后变化"
+    },
+    {
+      "a": "z2_bag",
+      "b": "l1_bag",
+      "relation_type": "CONTRADICTS",
+      "reason": "否认与接收方肯定"
+    },
+    {
+      "a": "l1_money",
+      "b": "l3_money",
+      "relation_type": "CONTRADICTS",
+      "reason": "现金收款与完全否认"
+    },
+    {
+      "a": "r1_money",
+      "b": "l3_money",
+      "relation_type": "CONTRADICTS",
+      "reason": "现金收款与完全否认"
+    },
+    {
+      "a": "w1_meeting",
+      "b": "w2_meeting",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一人员改变商议陈述"
+    },
+    {
+      "a": "w1_meeting",
+      "b": "l3_meeting",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一商议是否参与"
+    },
+    {
+      "a": "l1_bag",
+      "b": "l2_bag",
+      "relation_type": "CONTRADICTS",
+      "reason": "唯一手提袋颜色互斥"
+    },
+    {
+      "a": "z2_presence",
+      "b": "w1_presence",
+      "relation_type": "SUPPORTS",
+      "reason": "进入时间地点一致"
+    },
+    {
+      "a": "z4_presence",
+      "b": "camera",
+      "relation_type": "SUPPORTS",
+      "reason": "约九点与监控九点一致"
+    },
+    {
+      "a": "z3_bag",
+      "b": "z4_bag",
+      "relation_type": "SUPPORTS",
+      "reason": "交付对象物品时间一致"
+    },
+    {
+      "a": "l1_money",
+      "b": "r1_money",
+      "relation_type": "SUPPORTS",
+      "reason": "十万元等于100000元"
+    },
+    {
+      "a": "z2_bag",
+      "b": "z1_bag",
+      "relation_type": "SUPPORTS",
+      "reason": "两次均否认同一交付"
+    },
+    {
+      "a": "w1_presence",
+      "b": "w2_presence",
+      "relation_type": "PARTIAL_DIFFERENCE",
+      "reason": "相差20分钟的近似到达时间"
+    },
+    {
+      "a": "z3_presence",
+      "b": "z4_presence",
+      "relation_type": "PARTIAL_DIFFERENCE",
+      "reason": "九点半左右与九点左右"
+    },
+    {
+      "a": "w3_other",
+      "b": "p_other",
+      "relation_type": "INDEPENDENT",
+      "reason": "同地点但不同日期"
+    },
+    {
+      "a": "l1_money",
+      "b": "bank",
+      "relation_type": "INDEPENDENT",
+      "reason": "次日货款转账不等于前一晚现金"
+    },
+    {
+      "a": "u_unknown",
+      "b": "camera",
+      "relation_type": "INDEPENDENT",
+      "reason": "未注意不等于否认发生，无法确认属于相反陈述"
+    }
+  ]
+}

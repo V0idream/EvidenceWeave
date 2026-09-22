@@ -1,0 +1,44 @@
+{
+  "model": "qwen3:14b",
+  "facts": 4,
+  "relations": [
+    {
+      "relation_type": "CONTRADICTS",
+      "explanation": "两个事实陈述同一时间、同一地点、同一动作（进入鑫源宾馆），但一个被否认，一个被确认，因此直接矛盾。",
+      "confidence": 1.0,
+      "fact_a": {
+        "document": "01_张某_第一次讯问.pdf",
+        "page": 2,
+        "quote": "2026年3月17日21时，我没有进入鑫源宾馆。",
+        "predicate": "进入",
+        "subject": "张某"
+      },
+      "fact_b": {
+        "document": "02_张某_第二次讯问.pdf",
+        "page": 2,
+        "quote": "2026年3月17日21时，我进入了鑫源宾馆。",
+        "predicate": "进入",
+        "subject": "张某"
+      }
+    },
+    {
+      "relation_type": "SUPPORTS",
+      "explanation": "两个原子事实的陈述内容、时间、地点、对象和动作完全一致，且均为否认交付行为，因此属于同一待证事实且逻辑关系为支持。",
+      "confidence": 1.0,
+      "fact_a": {
+        "document": "01_张某_第一次讯问.pdf",
+        "page": 2,
+        "quote": "2026年3月17日21时，我没有在鑫源宾馆向李某交付黑色手提袋。",
+        "predicate": "交付",
+        "subject": "张某"
+      },
+      "fact_b": {
+        "document": "02_张某_第二次讯问.pdf",
+        "page": 2,
+        "quote": "2026年3月17日21时，我没有在鑫源宾馆向李某交付黑色手提袋。",
+        "predicate": "交付",
+        "subject": "张某"
+      }
+    }
+  ]
+}

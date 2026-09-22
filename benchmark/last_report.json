@@ -1,0 +1,220 @@
+{
+  "case_id": "1038ec838079404297885757acc28569",
+  "status": "COMPLETED",
+  "model": "qwen3:14b",
+  "scope": "20 fixed synthetic labeled pairs; not a real-world accuracy claim",
+  "documents": 17,
+  "facts": 34,
+  "relations": 94,
+  "contradiction_precision": 0.9090909090909091,
+  "contradiction_recall": 1.0,
+  "source_citation_accuracy": 1.0,
+  "person_precision": 1.0,
+  "person_recall": 1.0,
+  "pair_accuracy": 0.95,
+  "true_positive": 10,
+  "false_positive": 1,
+  "false_negative": 0,
+  "results": [
+    {
+      "a": "z1_presence",
+      "b": "z2_presence",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一时间地点，进入与未进入",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z1_presence",
+      "b": "w1_presence",
+      "relation_type": "CONTRADICTS",
+      "reason": "本人否认与目击陈述",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z1_presence",
+      "b": "camera",
+      "relation_type": "CONTRADICTS",
+      "reason": "否认进入与监控记录",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z1_bag",
+      "b": "z3_bag",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一交付行为的前后变化",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z2_bag",
+      "b": "l1_bag",
+      "relation_type": "CONTRADICTS",
+      "reason": "否认与接收方肯定",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "l1_money",
+      "b": "l3_money",
+      "relation_type": "CONTRADICTS",
+      "reason": "现金收款与完全否认",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "r1_money",
+      "b": "l3_money",
+      "relation_type": "CONTRADICTS",
+      "reason": "现金收款与完全否认",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "w1_meeting",
+      "b": "w2_meeting",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一人员改变商议陈述",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "w1_meeting",
+      "b": "l3_meeting",
+      "relation_type": "CONTRADICTS",
+      "reason": "同一商议是否参与",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "l1_bag",
+      "b": "l2_bag",
+      "relation_type": "CONTRADICTS",
+      "reason": "唯一手提袋颜色互斥",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z2_presence",
+      "b": "w1_presence",
+      "relation_type": "SUPPORTS",
+      "reason": "进入时间地点一致",
+      "predicted": "SUPPORTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z4_presence",
+      "b": "camera",
+      "relation_type": "SUPPORTS",
+      "reason": "约九点与监控九点一致",
+      "predicted": "SUPPORTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z3_bag",
+      "b": "z4_bag",
+      "relation_type": "SUPPORTS",
+      "reason": "交付对象物品时间一致",
+      "predicted": "SUPPORTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "l1_money",
+      "b": "r1_money",
+      "relation_type": "SUPPORTS",
+      "reason": "十万元等于100000元",
+      "predicted": "SUPPORTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z2_bag",
+      "b": "z1_bag",
+      "relation_type": "SUPPORTS",
+      "reason": "两次均否认同一交付",
+      "predicted": "SUPPORTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "w1_presence",
+      "b": "w2_presence",
+      "relation_type": "PARTIAL_DIFFERENCE",
+      "reason": "相差20分钟的近似到达时间",
+      "predicted": "PARTIAL_DIFFERENCE",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "z3_presence",
+      "b": "z4_presence",
+      "relation_type": "PARTIAL_DIFFERENCE",
+      "reason": "九点半左右与九点左右",
+      "predicted": "PARTIAL_DIFFERENCE",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "w3_other",
+      "b": "p_other",
+      "relation_type": "INDEPENDENT",
+      "reason": "同地点但不同日期",
+      "predicted": "INDEPENDENT",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "l1_money",
+      "b": "bank",
+      "relation_type": "INDEPENDENT",
+      "reason": "次日货款转账不等于前一晚现金",
+      "predicted": "INDEPENDENT",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": true
+    },
+    {
+      "a": "u_unknown",
+      "b": "camera",
+      "relation_type": "INDEPENDENT",
+      "reason": "未注意不等于否认发生，无法确认属于相反陈述",
+      "predicted": "CONTRADICTS",
+      "matched_facts_a": 1,
+      "matched_facts_b": 1,
+      "correct": false
+    }
+  ]
+}

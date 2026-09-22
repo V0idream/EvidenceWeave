@@ -1,0 +1,54 @@
+﻿1
+00:00:00,000 --> 00:00:07,000
+EvidenceWeave：本地证据交叉核验工作台
+EvidenceWeave — Local evidence cross-verification for legal teams
+
+2
+00:00:07,000 --> 00:00:16,000
+演示直接打开已完成分析的虚构案件，跳过十几分钟的模型处理过程。
+We start from a completed fictional case and skip the lengthy model-processing stage.
+
+3
+00:00:16,000 --> 00:00:32,000
+11 份卷宗、24 条相关原子事实、34 处潜在矛盾；数据与模型均留在本机。
+11 records, 24 relevant atomic facts, and 34 potential conflicts — all processed locally.
+
+4
+00:00:32,000 --> 00:00:50,000
+一致性矩阵把供述、证言、监控和网约车记录按同一待证问题并排对照。
+The matrix aligns statements, testimony, surveillance, and ride records by the same issue.
+
+5
+00:00:50,000 --> 00:01:10,000
+每条 AI 提示都展示双方原文、来源、页码与判断理由，并明确置信度不是事实概率。
+Every AI flag shows both quotes, sources, pages, and rationale; confidence is not truth probability.
+
+6
+00:01:10,000 --> 00:01:27,000
+点击来源即可跳回 PDF 引用页，并高亮对应原文块：No Citation, No Claim。
+One click returns to the cited PDF page and highlights the exact source block.
+
+7
+00:01:27,000 --> 00:01:43,000
+律师复核独立保存。本例已确认矛盾并记录备注，AI 判断不会覆盖人工结论。
+Attorney review is stored separately; the confirmed decision and note remain independent of AI.
+
+8
+00:01:43,000 --> 00:02:01,000
+供述变化按材料日期展开，直观看到从否认进入到承认到场、收款的变化轨迹。
+The timeline reveals how statements evolve from denial to admission and changed payment details.
+
+9
+00:02:01,000 --> 00:02:16,000
+原始卷宗始终保留在案件中，解析状态、材料类型与来源信息均可回查。
+Original records stay attached to the case with traceable parsing status and source metadata.
+
+10
+00:02:16,000 --> 00:02:26,000
+EvidenceWeave 只负责发现值得核验的关系，最终判断始终由律师作出。
+EvidenceWeave flags what deserves review; lawyers always make the final decision.
+
+11
+00:02:26,000 --> 00:02:34,000
+No Citation, No Claim. · AI flags. Lawyers decide.
+Local-first · Source-grounded · Human-reviewed
