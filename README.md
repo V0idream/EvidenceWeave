@@ -6,7 +6,7 @@
 
 ## LexHack 演示
 
-`demo/` 收录约 2 分 30 秒、1080p、约 5 Mbps 的实机操作录屏，以及独立字幕参考与后期配音稿。视频不内嵌硬字幕，演示直接使用预先完成的分析结果，集中展示一致性矩阵、证据关系和卷宗材料回查流程。
+`demo/` 收录约 2 分 34 秒、1080p 的最终实机演示成片，以及独立字幕参考与配音稿。最终成片包含片头片尾、英文配音、BGM 和纯黑双语硬字幕，演示直接使用预先完成的分析结果，集中展示一致性矩阵、证据关系和卷宗材料回查流程。
 
 ## 开始使用
 
@@ -148,4 +148,4 @@ $env:PYTHONPATH = "backend"
 
 任务书约定接口统一位于 `/api` 前缀下，例如 `POST /api/cases`、`POST /api/cases/{id}/documents`、`POST /api/cases/{id}/analyze`、`GET /api/cases/{id}/facts`、`GET /api/cases/{id}/relations`、`POST /api/relations/{id}/review`。人物、目标选择、原始 PDF 和原文块接口一并实现。接口文档在本机 `/docs`。
 
-第三方组件及许可证见 `docs/THIRD_PARTY.md`，其中 PyMuPDF 具有 AGPL / 商业许可条件。使用的开源模型为 Qwen3 14B / 8B，AI 编程工具为 OpenAI Codex；运行产品无需 OpenAI 账号或 API Key。
+第三方组件及许可证见 `docs/THIRD_PARTY.md`，其中 PyMuPDF 具有 AGPL / 商业许可条件。使用的开源模型为 Qwen3 14B / 8B。开发过程中使用 OpenAI Codex 辅助代码实现、调试和文档整理；提交的 EvidenceWeave 产品本身完全本地运行，不调用 OpenAI 服务，也不需要 OpenAI 账号或 API Key。
